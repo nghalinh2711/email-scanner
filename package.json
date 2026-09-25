@@ -6,10 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "spike:jev": "npx tsx scripts/spike-jev.ts"
   },
   "dependencies": {
+    "ai": "^7.0.114",
     "next": "16.3.6",
+    "next-auth": "^5.0.0-beta.32",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
@@ -21,6 +26,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
   }
 }
